@@ -1,0 +1,36 @@
+.call__us {
+  background-color: white;
+  text-align: center;
+  padding: 40px 0px;
+
+  .wrap {
+
+    .title {
+      font-size: 36px;
+      font-weight: 900;
+    }
+
+    .text {
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 30px;
+    }
+
+    a {
+      display: inline-block;
+      padding: 15px;
+      font-size: 16px;
+      font-weight: 700;
+      background-color: #ff5151;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none; 
+      transition-duration: 300ms;
+      transition-property: background-color, color;
+      
+      &:hover {
+        background-color: darken(#ff5151, 5%);
+      }
+    }
+  }
+}

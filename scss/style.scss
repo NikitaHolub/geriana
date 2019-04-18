@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import "reset";
+@import "variables";
+@import "fonts";
+@import "mixins";
+@import "core";
+
+@import "blocks/header";
+@import "blocks/divider"; 
+@import "blocks/categories";
+@import "blocks/divider__photo";
+@import "blocks/how__search";
+@import "blocks/our__clients";
+@import "blocks/our__strength";
+@import "blocks/call__us";
+@import "blocks/footer";

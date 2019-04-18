@@ -1,0 +1,28 @@
+.divider {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #eff7f7;
+  
+  a {
+    font-weight: 700;
+    color: #8ae2e2;
+    transition-duration: 300ms;
+    transition-property: color;
+
+    &:hover {
+      color: darken(#8ae2e2, 10%);
+    }
+  }
+
+}
+
+@media(max-width: 650px) {
+
+  .divider {
+    padding: 20px 0;
+    font-size: 15px;
+  }
+
+}
