@@ -9,13 +9,14 @@
 
   .categories__block {
     display: flex;
-    justify-content: space-around;
+    // justify-content: space-around;
     flex-wrap: wrap;
 
     .categories__element {
-      padding-top: 80px;
-      flex-basis: 22%;
-      min-width: 280px;
+      padding: 80px 15px 0 15px;
+      // flex-basis: 22%;
+      // min-width: 280px;
+      flex: 1 300px;
   
       img {
         height: 140px;
@@ -46,7 +47,6 @@
     .categories__block {
 
       .categories__element {
-        flex-basis: 45%;
         padding-top: 50px;
       }
     }
